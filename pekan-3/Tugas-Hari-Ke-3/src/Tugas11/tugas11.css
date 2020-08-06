@@ -1,0 +1,20 @@
+.container {
+  margin: auto;
+}
+
+table {
+  margin: auto;
+}
+
+table td {
+  width: 150px;
+  text-align: center;
+}
+
+table thead {
+  background-color: grey;
+}
+
+table tbody {
+  background-color: burlywood;
+}
