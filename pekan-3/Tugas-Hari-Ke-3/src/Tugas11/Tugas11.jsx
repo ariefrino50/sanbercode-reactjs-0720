@@ -25,12 +25,12 @@ let dataHargaBuah = [
       render(){
           return(
               <>
-              {dataHargaBuah.map(az => {
+              {dataHargaBuah.map(buah => {
                   return(
                       <tr>
-                          <td><BuahBuahan nama={az.nama}/></td>
-                          <td><BuahBuahan nama={az.harga}/></td>
-                          <td><BuahBuahan nama={az.berat / 1000 + 'kg'}/></td>
+                          <td><BuahBuahan nama={buah.nama}/></td>
+                          <td><BuahBuahan nama={buah.harga}/></td>
+                          <td><BuahBuahan nama={buah.berat / 1000 + 'kg'}/></td>
                       </tr>
                   )
                   })}

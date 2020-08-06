@@ -110,13 +110,13 @@ handleDelete(event) {
                         </thead>
                         <tbody>
                             {
-                                this.state.dataHargaBuah.map((db, index) =>{
+                                this.state.dataHargaBuah.map((datadb, index) =>{
                                     return (
                                         <tr key={index}>
                                             <td>{index+1}</td>                                            
-                                            <Nama nama={db.nama}/>
-                                            <Harga harga={db.harga}/>
-                                            <Berat berat={db.berat}/>
+                                            <Nama nama={datadb.nama}/>
+                                            <Harga harga={datadb.harga}/>
+                                            <Berat berat={datadb.berat}/>
                                             <td>
                                                 <div style={{textAlign: "center"}}>
                                                 <button onClick={this.handleEdit} value={index}>Edit</button>
