@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
-import Jam from './tugas12/jam.js';
-import  DaftarBuah from './tugas13/DaftarBuah';
+import  FromBuahHooks from './tugas14/Hook';
 
 function App() {
   return (
@@ -9,10 +8,12 @@ function App() {
      {/* TUGAS 11*/}
         {/*<Tugas11 />*/}
 
-        {/* TUGAS 12 */}
-        <Jam/>
-        {/* TUGAS 13*/}
-        <DaftarBuah/>
+        {/* TUGAS 12 
+        <Jam/>*/}
+        {/* TUGAS 13
+        <DaftarBuah/>*/}
+        <FromBuahHooks/>
+       
     </div>
   );
 }
